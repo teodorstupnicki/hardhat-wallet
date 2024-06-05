@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/teodorstupnicki/hardhat-wallet/issues"
   },
-  "homepage": "https://github.com/teodorstupnicki/hardhat-wallet#readme"
+  "homepage": "https://github.com/teodorstupnicki/hardhat-wallet#readme",
+  "devDependencies": {
+    "hardhat": "^2.22.5"
+  }
 }
