@@ -1,0 +1,19 @@
+{
+  "name": "hardhat-wallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teodorstupnicki/hardhat-wallet.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teodorstupnicki/hardhat-wallet/issues"
+  },
+  "homepage": "https://github.com/teodorstupnicki/hardhat-wallet#readme"
+}
