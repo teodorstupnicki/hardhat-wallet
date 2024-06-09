@@ -17,7 +17,9 @@
   },
   "homepage": "https://github.com/teodorstupnicki/hardhat-wallet#readme",
   "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.6",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "ethers": "^6.13.0",
     "hardhat": "^2.22.5"
   },
   "dependencies": {
