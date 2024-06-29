@@ -1,4 +1,4 @@
-import { ethers } from "hardhat"
+import { ethers, run } from "hardhat"
 
 async function main() {
   // We get the contract to deploy
@@ -8,6 +8,11 @@ async function main() {
   await box.waitForDeployment();
   const address = await box.getAddress();
   console.log('Box deployed to: ', address);
+}
+
+async function verify(contractAddress, args) {
+  console.log("Verifying contract...");
+  await run("verify");
 }
 
 main()
