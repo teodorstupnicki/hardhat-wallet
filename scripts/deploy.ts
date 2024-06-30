@@ -12,6 +12,15 @@ async function main() {
   if (network.config.chainId === 11155111) {
     await verify(box.target, []);
   }
+
+  const currentValue = await box.retrieve();
+  console.log(`Current Value is: ${currentValue}`);
+
+  // Update the current value
+  const transactionResponse = await box.store(7);
+  await transactionResponse.wait(1);
+  const updatedValue = await box.retrieve();
+  console.log(`Updated Value is: ${updatedValue}`);
 }
 
 async function verify(contractAddress, args) {
