@@ -14,7 +14,11 @@ const config: HardhatUserConfig = {
       chainId: 11155111,
       url: `https://eth-sepolia.g.alchemy.com/v2/${ALCHEMY_API_KEY}`,
       accounts: [SEPOLIA_PRIVATE_KEY]
-    }
+    },
+    localhost: {
+      url: "http://localhost:8545",
+      chainId: 31337,
+    },
   },
   etherscan: {
     apiKey: ETHERSCAN_API_KEY,
